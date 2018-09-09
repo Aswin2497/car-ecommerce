@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="bckend">
+        <wb-resource deploy-path="/" source-path="/src/main/java"/>
+        <dependent-module archiveName="frtend.war" deploy-path="/" handle="module:/resource/frtend/frtend">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="bckend"/>
+        <property name="java-output-path" value="/bckend/target/classes"/>
+    </wb-module>
+</project-modules>

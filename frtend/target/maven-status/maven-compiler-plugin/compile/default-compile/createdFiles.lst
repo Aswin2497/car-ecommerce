@@ -1,0 +1,6 @@
+com\ProductController.class
+com\PageController.class
+com\CartController.class
+com\UserController.class
+com\CategoryController.class
+com\SupplierController.class
